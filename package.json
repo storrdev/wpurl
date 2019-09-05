@@ -1,0 +1,25 @@
+{
+  "name": "wpurl",
+  "version": "1.0.0",
+  "description": "Wordpress Site URL Replacer CLI Tool",
+  "bin": {
+    "wpurl": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storrdev/wpurl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storrdev/wpurl/issues"
+  },
+  "homepage": "https://github.com/storrdev/wpurl#readme",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "promise-mysql": "^4.1.0"
+  }
+}
